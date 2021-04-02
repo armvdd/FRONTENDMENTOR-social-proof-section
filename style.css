@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Spartan;
+    font-size: 15px;
+    background-color: rgb(212, 212, 212);
+}
+
+.container{
+    max-width: 350px;
+    padding-bottom: 40px;
+    margin: 50px auto;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url(images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 50px 20px 50px;
+}
+
+.uvod{
+    color: hsl(303, 10%, 53%);
+    margin: 5px auto;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rated{
+    margin: 10px auto;
+    padding: 15px 0;
+    background-color:  hsl(300, 24%, 96%);
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.rated p{
+    margin-top: 10px;
+}
+
+.rated img{
+    margin-right: 5px;
+}
+
+.card{
+    margin: 15px auto;
+    width: 90%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    color: hsl(300, 24%, 96%)
+}
+
+.smith{
+    margin-top: 45px;
+}
+
+#colton, #irene, #anne{
+    border-radius: 50%;
+}
+
+.card--up{
+    display: flex;
+    align-items: center;
+    padding: 15px 0 5px 25px;
+}
+
+.right{
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.text{
+    padding: 15px 25px 35px 25px;
+    font-size: 13px;
+}
+
+.desc{
+    color: hsl(333, 80%, 67%);
+    margin-top: 5px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media screen and (min-width: 1100px){
+      .container{
+          min-width: 1100px;
+          height: 800px;
+      }
+
+    .container--up{
+        min-height: 350px;
+        display: flex;
+        padding: 30px;
+        align-items: center;
+        justify-content: space-between;
+    }      
+
+    .up--left{
+        flex: 1 1 40%;
+    }
+
+    h1{
+        padding-left: 30px;
+        text-align: left;
+        font-size: 35px;
+    }
+
+    .uvod{
+        font-size: 20px;
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    .up--right{
+        flex: 1 1 60%;
+    }
+
+    .rated{
+        width: 450px;
+        display: flex;
+        align-items: center;
+    }
+
+    .rated--left{
+        flex: 1 1 30%;
+        text-align: right;
+    }
+
+    .rated--right{
+        flex: 1 1 70%;
+        text-align: left;
+        margin-left: 15px;
+        padding-bottom: 9px;
+    }
+
+    .frst{
+        margin-left: 50px;
+    }
+    .scnd{
+        margin-left: 100px;
+    }
+
+    .thrd{
+        margin-left: 150px;
+        margin-right: 60px;
+    }
+
+    .container--down{
+        display: flex;
+    }
+
+    .card{
+        height: 250px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+     .text{
+         font-size: 15px;
+     }
+
+     .desc{
+         font-size: 15px;
+     }
+
+    .smith, .roberts, .wallace{
+        margin-top: 0;
+    }
+
+    .smith{
+        margin: 0 20px 0 60px;
+    }
+
+    .roberts{
+        margin: 20px 20px 0 0;
+    }
+
+    .wallace{
+        margin: 40px 60px 0 0;
+    }
+  }
